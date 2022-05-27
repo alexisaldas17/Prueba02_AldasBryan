@@ -19,6 +19,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         usuarios = new ArrayList<>();
+
         usuarios.add(new User("ALEXIS"));
         usuarios.add(new User("ALDAS"));
         editTextUsuario = findViewById(R.id.editTextUsuario);
@@ -33,14 +34,14 @@ public class LoginActivity extends AppCompatActivity {
 
             Intent intent = new Intent(this, MainActivity.class);
             //pasar parametro al activity
-            intent.putExtra("variable_usuario", usuario);
+            intent.putExtra("variable_usuario", "0");
             startActivity(intent);
             //...putExtra
         }
         if (usuario.equals("ALDAS")){
             Intent intent = new Intent(this, MainActivity.class);
             //pasar parametro al activity
-            intent.putExtra("variable_usuario", usuario);
+            intent.putExtra("variable_usuario", "1");
             startActivity(intent);
         }
         else

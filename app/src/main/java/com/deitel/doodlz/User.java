@@ -13,11 +13,12 @@ public class User {
         color= Color.BLACK;
     }
 
-    public User(String nombre, int color, int colorFondo, int anchoLinea){
+    public User(String nombre){
         this.nombre = nombre;
-        this.color = color;
-        this.colorFondo = colorFondo;
-        this.anchoLinea = anchoLinea;
+        //this.color = color;
+        //this.colorFondo = colorFondo;
+        //this.anchoLinea = anchoLinea;
+        //this.anchoLinea = anchoLinea;
         //color= Color.BLACK;
     }
 }
