@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Doodlz Aplicacion</string>
+    <string name="button_erase">Borrar Imagen</string>
+    <string name="button_set_color">Asignar Color</string>
+    <string name="button_set_line_width">Asignar Tamaño Linea</string>
+    <string name="line_imageview_description">Esto muestra el grosor de la linea</string>
+    <string name="label_alpha">Alpha</string>
+    <string name="label_red">Rojo</string>
+    <string name="label_green">Verde</string>
+    <string name="label_blue">Azul</string>
+    <string name="menuitem_delete">Borrar Dibujo</string>
+    <string name="menuitem_color">Color</string>
+    <string name="menuitem_line_width">Ancho Linea</string>
+    <string name="menuitem_save">Guardar</string>
+    <string name="menuitem_print">Imprimir</string>
+    <string name="message_erase">Esta seguro de borrar el dibujo?</string>
+    <string name="message_error_saving">Hubo un error al guardar la imagen</string>
+    <string name="message_saved">Su pintura guardada se puede ver en la aplicación Fotos seleccionando Carpetas del dispositivo en el menú de esa aplicación.</string>
+    <string name="message_error_printing">Tu dispositivo no soporta impresion</string>
+    <string name="title_color_dialog">Selecciona Color</string>
+    <string name="title_background_color_dialog">Selecciona Fondo Color</string>
+    <string name="title_line_width_dialog">Selecciona Ancho Linea</string>
+    <string name="permission_explanation">Para guardar la imagen, la app requiere permiso para escribir en el almacenamiento externo</string>
+</resources>
