@@ -183,6 +183,13 @@ public class MainActivityFragment extends Fragment {
             case R.id.image:
                 pickImage();
                 return true;
+            case R.id.salir:
+                try {
+                    finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
