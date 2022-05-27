@@ -13,14 +13,14 @@ import java.util.ArrayList;
 public class LoginActivity extends AppCompatActivity {
     EditText editTextUsuario;
     Button btnIngresar;
-    ArrayList<Users> usuarios;
+    ArrayList<User> usuarios;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         usuarios = new ArrayList<>();
-        usuarios.add(new Users("ALEXIS"));
-        usuarios.add(new Users("ALDAS"));
+        usuarios.add(new User("ALEXIS"));
+        usuarios.add(new User("ALDAS"));
         editTextUsuario = findViewById(R.id.editTextUsuario);
         btnIngresar = findViewById(R.id.buttonIngresar);
 
